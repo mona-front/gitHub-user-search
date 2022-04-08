@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | GitHub user search app</title>
+</head>
+<body>
+  <div class="container">
+    <main>
+      <header>
+        <h1 class="devfinder">devfinder</h1>
+        <p class="state">Dark</p>
+      </header>
+      <section id="search">
+        <span class="iconsearch"></span>
+        <input type="search" placeholder="Search GitHub username..." class="search" onkeypress=" keypreeEvent(event)">
+        <span class="result"></span>
+        <input type="button" value="search" class="button">
+      </section>
+      <section id="main">
+        <div class="informationUser">
+          <article class="imageProfile">
+            <!-- <img src="" alt="profile" class="profile"> -->
+          </article>
+          <div class="information">
+            <article class="infoBio">
+              <h1 class="infoName"></h1>
+              <h5 class="infoUserName"> </h5>   
+            </article>
+              <article class="date">
+                <p class="dateJoin"> Joined <p class="dateJoin dateCreate"></p></p>
+              </article>
+          </div>
+        </div>
+        
+          <div id="report">
+            <div class="description">
+              <article id="desc">
+                <h6 class="desc_detail"></h6>  
+              </article>
+            </div>
+            <div class="reportPage">
+              <article class="repos">
+                <h6 class="title">repos</h6>
+                <h2 class="count repo"></h2>
+              </article>
+              <article class="Followers">
+                <h6 class="title">Followers</h6>
+                <h2  class="count follower"></h2>
+              </article>
+              <article class="Following">
+                <h6 class="title">Following</h6>
+                <h2  class="count following"></h2>
+              </article>
+            </div>
+            <div class="commiuInfo">
+              <article class="location">
+                <span class="locn"></span>
+                <p id="location">
+                  
+                </p>
+              </article>
+              <article class="twitter">
+                <span class="social"></span>
+                <p id="social"></p>
+              </article>
+              <article class="github">
+                <span class="adress"></span>
+                <article id="githubUrl"></article>
+                <!-- <a href="" id="adressUrl"></a> -->
+              </article>
+              <article class="company">
+                <span class="compny"></span>
+                <p id="company"></p>
+              </article>
+            </div>
+          </div>
+         
+      
+       
+      </section>
+    </main>
+  </div>
+<script src="./js/main.js"></script>
+</body>
+</html>
